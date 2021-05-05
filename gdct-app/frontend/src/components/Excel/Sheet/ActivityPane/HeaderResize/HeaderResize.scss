@@ -1,0 +1,11 @@
+.resizeHeader {
+  position: absolute;
+
+  &__headerIndicator {
+    background-color: #1E90FF;;
+  }
+
+  &__contentIndicator {
+    background-color: gray;
+  }
+}
