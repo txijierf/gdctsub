@@ -21,10 +21,9 @@ jobs:
       with:
         node-version: '12.13.0'
 
-    - name: npm install, build, and test
+    - name: yarn
       run: |
         yarn
-        yarn start
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
